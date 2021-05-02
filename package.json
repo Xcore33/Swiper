@@ -1,0 +1,56 @@
+{
+  "name": "swiper",
+  "version": "1.0.0",
+  "description": "swiper test task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development && webpack-dev-server --inline --open",
+    "start": "NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xcore33/Swiper.git"
+  },
+  "keywords": [
+    "JS",
+    "React"
+  ],
+  "author": "Ihar Soltan <mauler1987@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xcore33/Swiper/issues"
+  },
+  "homepage": "https://github.com/Xcore33/Swiper#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.0",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-node-externals": "^2.5.2",
+    "webpack-notifier": "^1.8.0"
+  },
+  "dependencies": {
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "cross-env": "^7.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/react"
+    ],
+    "plugins": [
+      "syntax-dynamic-import"
+    ]
+  },
+  "optionalDependencies": {
+    "mini-css-extract-plugin": "^0.5.0"
+  }
+}
